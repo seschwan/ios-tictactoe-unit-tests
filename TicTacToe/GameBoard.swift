@@ -29,7 +29,7 @@ struct GameBoard {
     }
     
     private enum Square: Equatable {
-        case filled(Mark)
+        case filled(Mark) // Filled by either .x or .o
         case empty
     }
     
